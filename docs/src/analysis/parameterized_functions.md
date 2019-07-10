@@ -6,7 +6,7 @@ This functionality does not come standard with DifferentialEquations.jl.
 To use this functionality, you must install ParameterizedFunctions.jl:
 
 ```julia
-]add ParameterizedFunctions
+Pkg.pkg"add ParameterizedFunctions"
 using ParameterizedFunctions
 ```
 
